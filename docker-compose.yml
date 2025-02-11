@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
       args:
-        GITHUB_TOKEN: $GITHUB_TOKEN
+        GITHUB_TOKEN: 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
     image: umetaflow_app
     container_name: umetaflow-app
     restart: always
